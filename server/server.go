@@ -11,7 +11,6 @@ import (
 	"github.com/alexflint/go-arg"
 )
 
-// miton beri roosh
 var args struct {
 	DbPath   string `arg:"env:MAILINGLIST_DB"`
 	BindJson string `arg:"env:MAILINGLIST_BIND_JSON"`
